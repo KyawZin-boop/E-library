@@ -1,0 +1,287 @@
+body {
+    user-select: none;
+  }
+  
+  /* navbar */
+  .navbar{
+    height: 7.5vh;
+  }
+  @media screen and (max-width: 992px) {
+    .login,
+    .register {
+      margin: 15px 10px 5px 0;
+    }
+    .testing {
+      margin: 10px 0;
+    }
+  }
+  @media screen and (min-width: 1380px) {
+    .searchInput {
+      width: 400px;
+    }
+  }
+  .logo {
+    background: linear-gradient(
+      90deg,
+      rgba(119, 114, 199, 1) 9%,
+      rgba(33, 33, 214, 1) 40%,
+      rgba(0, 212, 255, 1) 79%
+    );
+    font-size: 35px;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .userInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .userImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .userDropdownBtn{
+    border: none;
+    background-color: transparent;
+  }
+  .badge{
+    font-size: 8px;
+  }
+  
+  /* user edit profile */
+  .userEditDiv{
+    width: 23%;
+    margin: auto;
+    border-radius: 10px; 
+    border:1px solid #8AC4FF; 
+    padding:20px 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  }
+  .editImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* carousel */
+  .carouselContainer {
+    height: 400px;
+  }
+  .carouselImg {
+    object-fit: cover;
+    height: 400px;
+  }
+  .carousel-caption {
+    top: 35%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "ubuntu";
+  }
+  
+  /* latestBooksContent */
+  .latestBooksTitle {
+    font-size: x-large;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    font-family: "ubuntu";
+  }
+  .latestBooks img {
+    object-fit: cover;
+    height: 180px;
+    max-width: 150px;
+    padding-top: 5px;
+  }
+  .card-footer a {
+    margin: 20px 0;
+  }
+  .lbBorder,.pbBorder {
+    border: 1px solid #ced4da;
+    border-radius: 10px 10px 5px 5px;
+    height: 292px;
+  }
+  .endline {
+    border-bottom: 1px dashed red;
+    margin-bottom: 10px;
+  }
+  
+  /* popularBooksContent */
+  .popularBooksTitle {
+    font-size: x-large;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    font-family: "ubuntu";
+  }
+  .popularBooks img {
+    object-fit: cover;
+    height: 180px;
+    max-width: 150px;
+    padding-top: 5px;
+  }
+  
+  /* footer */
+  .footer {
+    position: relative;
+    height: 8vh;
+    background-color: #e3f2fd;
+  }
+  
+  /* allbooksContent */
+  .allbooksImg {
+    height: 200px;
+    object-fit: cover;
+    max-width: 150px;
+    min-width: 100px;
+    padding-top: 5px;
+  }
+  .box {
+    margin: 30px 200px 0;
+  }
+  .testing {
+    border: 1px solid #ced4da;
+    border-radius: 10px 10px 5px 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .container {
+    margin: auto;
+    margin-top: 20px;
+    scroll-margin-top: 90px;
+  }
+  .downloadNowBtn {
+    margin-top: 5px;
+    border-top: 1px solid #ced4da;
+    padding: 0 20px;
+  }
+  .cBody {
+    height: 277px;
+  }
+  .author {
+    text-decoration: none;
+    color: rgb(232, 73, 14);
+  }
+  .categoryTitle {
+    font-size: 35px;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    font-family: "ubuntu";
+    text-align: start;
+    color: #8AC4FF;
+  }
+  .content{
+    scroll-behavior: smooth;
+    margin-right: 10px;
+  }
+  .modify-container{
+    position: fixed;
+    top: 35%;
+    text-align: center;
+  }
+  .modify{
+    background-color: transparent;
+    margin: 0 0 5px 5px;
+  }
+  @media screen and (max-width: 1090px) {
+    .modify-container{
+      display: none;
+    }
+  }
+  
+  /* aboutus */
+  .aboutUsContainer{
+    color: white;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #2a9df4 ;
+    border-radius: 10px;
+    width: 1600px;
+  }
+  .aboutUsContent{
+    padding: 10px;
+  }
+  .aboutUsMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .aboutUs, .mission, .values{
+    width: 460px;
+  }
+  .aboutUsContent h1, .values span, .services h1{
+    font-weight: bolder;
+  }
+  .values span{
+    color: #19ff7d;
+  }
+  .aboutUsContent p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+  }
+  .aboutUsFooter{
+    position: relative;
+    margin-top: 88px;
+    width: 100%;
+    background-color: #e3f2fd;
+  }
+  .aboutUsFooter p{
+    text-align: center;
+  }
+  .services{
+    width: 500px;
+    margin: auto;
+  }
+  .ELibraryServices{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* NoSearchBook */
+  .noBookText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+  }
+  .noBookText h2{
+    color: rgb(241, 4, 4);
+  }
+
+  /* details book */
+  .detailDiv{
+    min-height: 79.5vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 20px;
+  }
+  .bookDetails{
+    max-width: 700px;
+    background-color: #f6f6f6;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+  .detailImg{
+    width: 200px;
+    /* height: 300px; */
+  }
+
+  .myCartContainer{
+    min-height: 82.2vh;
+  }
+  .myCartDiv{
+    min-height: 50vh;
+  }
