@@ -1,6 +1,6 @@
 # Shop Website
 
-A simple shop website built with Laravel. This project includes basic e-commerce functionalities like user authentication, product display, and an add-to-cart system. However, some features are incomplete (details below).
+A simple library website built with Laravel. This project includes basic e-commerce functionalities like user authentication, product display, and an add-to-cart system. However, some features are incomplete (details below).
 
 ## Features
 
